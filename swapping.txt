@@ -1,0 +1,8 @@
+a= int(input("Enter first number:"))
+b= int(input("Enter second number:"))
+t= 0
+print (f"Before swapping:{a} {b}")
+t=a
+a=b
+b=t
+print (f"Before swapping:{a} {b}")
