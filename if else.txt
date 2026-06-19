@@ -1,0 +1,22 @@
+p= int(input("Enter marks in Physics:"))
+c= int(input("Enter marks in Chemistry:"))
+m= int(input("Enter marks in Maths:"))
+o= int(input("Enter the overall value:"))
+if p<50 or p>100:
+    print("Invalid physics marks")
+else:
+    print("Valid physics marks")
+if c<50 or c>100:
+    print("Invalid chemistry marks")
+else:
+    print("Valid chemistry marks")
+if m<0 or m>100:
+    print("Invalid maths marks")
+else:
+    print("Valid maths marks")
+if o<150 or o>300:
+    print("Invalid overall marks")
+else:
+    print("Valid overall marks")
+
+
