@@ -1,0 +1,17 @@
+
+scr= int(input("Enter your score:"))
+if (0<=scr<35):
+    print("The Grade:F")
+if (35<=scr<45):
+    print("The Grade:P")
+if (45<=scr<60):
+    print("The Grade:B")
+if (60<=scr<75):
+    print("The Grade:A")
+if (75<=scr<90):
+    print("The Grade:A+")
+if (90<=scr<=100):
+    print("The Grade:O")
+
+
+
