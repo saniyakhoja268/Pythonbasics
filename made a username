@@ -1,0 +1,7 @@
+
+a= (input("Enter your first name:"))
+b= (input("Enter your last name:"))
+print(f"Your username:{a}{b}_786")
+
+
+
