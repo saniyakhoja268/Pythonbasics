@@ -1,0 +1,7 @@
+AREA OF TRIANGLE
+print("-----Calculate Area of Triangle-----")
+h= int(input("Enter height:"))
+b= int(input("Enter base:"))
+a=h*b/2
+
+
