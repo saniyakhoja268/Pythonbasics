@@ -1,0 +1,10 @@
+print("----CURRENCIES TO RUPEES-------")
+a= int(input("Enter the value in dollars:"))
+b= int(input("Enter the value in euro:"))
+c= int(input("Enter the value in pound:"))
+d= 94.42*a
+e= 108.16*b
+p= 124.75*c
+print(f"Dollars to Rupees={d}")
+print(f"Euro to Rupees={e}")
+print(f"Pound to Rupees={p}")
