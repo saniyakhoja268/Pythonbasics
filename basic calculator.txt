@@ -1,0 +1,9 @@
+print("-------BASIC CALCULATOR-------")
+p= int(input("Enter first number:"))
+q= int(input("Enter second number:"))
+a=p+q
+m=p*q
+d=p/q
+s=p-q
+md=p%q
+print(f"\n\nAddition:{a}\nSubtraction:{s}\nMultiplication:{m}\nDivision:{d}\nModulus:{md}")
