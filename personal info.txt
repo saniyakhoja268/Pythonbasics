@@ -1,0 +1,11 @@
+a= (input("Enter your name:"))
+b= (input("Enter your surname:"))
+c= (input("Enter the city you live in:"))
+d= int(input("Enter your age:"))
+e= (input("Enter your mother's name:"))
+f= (input("Enter your father's name:"))
+g= int(input("how many siblings you have:"))
+print("--------PERSONAL DETAILS------")
+print(f"Name:{a}\nSurname:{b}\nCity:{c}\nAge:{d}\nMother's name:{e}\nFather's name:{f}\nSiblings:{g}")
+
+
