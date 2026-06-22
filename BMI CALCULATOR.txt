@@ -1,0 +1,5 @@
+print("-------BMI CALCULATOR-------")
+h= float(input("Enter HEIGHT(in meter):"))
+w= float(input("Enter WEIGHT(in kilogram):"))
+b= w/(h*h)
+print(f"Body Mass Index (BMI):{b}")
