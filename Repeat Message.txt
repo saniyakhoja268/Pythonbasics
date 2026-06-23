@@ -1,0 +1,3 @@
+a= (input("Enter the word name:"))
+b= int(input("Enter times:"))
+print(f"{a}\n"*b)
