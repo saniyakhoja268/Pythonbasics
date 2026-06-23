@@ -1,0 +1,5 @@
+print("-------SPLIT THE BILL-------")
+a= int(input("Enter the amount:"))
+b= int(input("Enter the no.of people:"))
+c= a/b
+print(f"The amount for per person is:{c}")
