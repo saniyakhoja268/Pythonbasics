@@ -1,0 +1,18 @@
+a= (input("Enter hours:"))
+try:
+    x=float(a)
+    if (0<x and x<40):
+        pay=10*x
+        print(f"{pay}")
+    elif (40<x and x<60):
+        pay=400+(x-40)*15
+        print(f"{pay}")
+    elif (60<x and x<100):
+        pay=700+(x-60)*20
+        print(f"{pay}")
+    else:
+        print("Invalid")
+
+except:
+    print("Please enter a number")
+
