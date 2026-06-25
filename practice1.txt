@@ -1,0 +1,19 @@
+a= (input("Enter scores:"))
+x=float(a)
+if (0<x<1):
+        if (x>= 0.9):                  
+            print(f"A")
+        elif (x>= 0.8):
+            print(f"B")
+        elif (x>= 0.7):
+            print(f"C")
+        elif (x>= 0.6):
+            print(f"D")
+        elif (x< 0.6):
+            print(f"F")
+        else:
+            print("Invalid")
+else:
+    print("ERROR! Please enter valid score")
+
+
