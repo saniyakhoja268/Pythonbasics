@@ -1,0 +1,10 @@
+print("---------DETERMINE THE TICKET PRICE---------\n\n")
+a= int(input("Enter your age:"))
+if (0<a<=5):
+    print("Travel is free,\n ticket fare=0")
+elif(5<a<=12):
+    print("Travel is not free\nhalf price should be paid,\nticket fare=50")
+elif(12<a<120):
+    print("Travel is not free\nfull price should be paid,\nticket fare=100")
+else:
+    print("Error,Please enter a valid age")
