@@ -1,0 +1,22 @@
+def greater(a,b,c):
+      if(a>b and a>c):
+        print(f"{a} is greater")
+      elif(b>a and b>c):
+        print(f"{b} is greater")
+      elif(c>b and c>a):
+        print(f"{c} is greater")
+      elif(a==b==c):
+        print(f"{a} {b} {c} are equal")
+      elif(a==b):
+        print(f"{a} is greater,\nbut {a} {b} numbers are equal")
+      elif(c==b):
+        print(f"{b} is greater,\nbut {c} {b} numbers are equal")
+      elif(a==c):
+        print(f"{c} is greater,\nbut {a} {c} numbers are equal")
+      else:
+        print("Invalid")
+
+a= int(input("Enter first number:"))
+b= int(input("Enter second number:"))
+c= int(input("Enter third number:"))    
+greater(a,b,c)
