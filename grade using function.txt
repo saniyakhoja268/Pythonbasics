@@ -1,0 +1,20 @@
+def comp_score(x):
+    if (0<x<1):
+        if (x>= 0.9):                  
+            return "A"
+        elif (x>= 0.8):
+            return "B"
+        elif (x>= 0.7):
+            return "C"
+        elif (x>= 0.6):
+            return "D"
+        elif (x< 0.6):
+            return "F"
+        else:
+            return "INVALID"
+    else:
+        return "ERROR! Please enter valid score"
+   
+x= float(input("Enter scores:"))
+grade=comp_score(x)
+print("GRADE=",grade)
