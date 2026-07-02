@@ -1,0 +1,4 @@
+x=0 #initialization
+while(x<=9):#condition
+    print(x+1, end=' ')
+    x=x+1 #iteration
